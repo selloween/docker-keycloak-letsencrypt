@@ -8,10 +8,7 @@ A simple Keycloak setup using nginx reverse proxy, docker gen and letsencrypt fo
 
 ## Guide
 Copy sample.env to .env and adjust the environment variables.
-Then 
-```
-docker-compose up
-```
+Then ```docker-compose up```
 
 Note: ssl option in JDBC_PARAMS is set to false, as the nginx proxy will handle SSL.
 ```
