@@ -63,13 +63,13 @@ services:
       POSTGRES_DB: ${DB_DATABASE}
       POSTGRES_USER: ${DB_USER}
       POSTGRES_PASSWORD: ${DB_PASSWORD}
-    #volumes:
-    #  - data:/var/lib/postgresql/data
+    volumes:
+      - data:/var/lib/postgresql/data
     networks:
       - webproxy  
    
 networks:
   webproxy:
 
-#volumes:
-#  data:
+volumes:
+  data:
