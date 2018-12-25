@@ -1,4 +1,4 @@
-# docker-compose-keycloak
+# keycloak-docker-ssl
 
 A simple Keycloak setup using nginx reverse proxy, docker gen and letsencrypt for generating SSL certs.
 
