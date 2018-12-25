@@ -27,7 +27,7 @@ LETSENCRYPT_HOST=example.com
 LETSENCRYPT_EMAIL=luke.skywalker@example.com
 ```
 
-## Source
+## docker-compose.yml
 
 ```
 version: '3'
