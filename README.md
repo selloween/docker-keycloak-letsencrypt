@@ -1,6 +1,6 @@
 # Keycloak Docker setup with NGINX Proxy and Letsencrypt
 
-A simple Keycloak setup using nginx reverkeycloak-docker-sslse proxy, docker gen and letsencrypt for generating SSL certs.
+A simple Keycloak setup using NGINX Reverse Proxy and Letsencrypt
 Keycloak is a powerful Open Source Identity and Access Management application.
 
 ### Reference
