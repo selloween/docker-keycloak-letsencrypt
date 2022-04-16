@@ -12,6 +12,8 @@ Then ```docker-compose up```
 
 Note: ssl option in JDBC_PARAMS is set to false, as the nginx proxy will handle SSL.
 ```
+DB_VENDOR: POSTGRES
+DB_ADDR: postgres
 DB_DATABASE=keycloak_db
 DB_USER=keycloak_db_user
 DB_PASSWORD=Passw0rd!
