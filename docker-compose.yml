@@ -37,6 +37,8 @@ services:
     container_name: keycloak
     restart: always
     environment: 
+      DB_VENDOR: POSTGRES
+      DB_ADDR: postgres
       DB_DATABASE: ${DB_DATABASE}
       DB_USER: ${DB_USER}
       DB_PASSWORD: ${DB_PASSWORD}
